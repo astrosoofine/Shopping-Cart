@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #cbeaeb;
+    height: 100vh;
+}
+
+.both-containers{
+    margin-left: 500px;
+
+}
+
+.blank-container {
+  width: 400px;
+  height: 500px;
+  background-color: #8092c3;
+  border-radius: 20px;
+  position: relative;
+}
+.populated-container {
+  background-color: white;
+  max-width: 400px;
+  padding:60px 5%;
+  box-shadow: 0 0 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: 45px;
+  left: 550px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+}
+small{
+    margin-top: -2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.product-details p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.product-details a{
+    margin-top: 10px;
+    padding: 5px;
+    background: #85bc46;
+    font-size: 15px;
+    text-decoration: none;
+    width: 80px;
+    border-radius: 30px;
+    padding-left: 13px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.icons{
+    display: flex;
+    gap: 5px;
+    margin-left: -3px;
+
+}
+i{
+    background-color: #cbeaeb;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+.one{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.other-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.other-details p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.coupon{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #3e6bd7;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #3e6bd7;
+    border-radius: 30px;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
